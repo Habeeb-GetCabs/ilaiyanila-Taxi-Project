@@ -1,21 +1,19 @@
-.bookingform-details
-{
+@import url('assets/css/style.css');
+
+.bookingform-details {
     background: #0b3a6e !important;
 }
-.Bookingnow
-{
+.Bookingnow {
     color: #e0b336 !important;
 }
-.nav-tabs .nav-link
-{
+.nav-tabs .nav-link {
     color: #e0b336 !important;
 }
-.nav-tabs .nav-link.active
-{
+.nav-tabs .nav-link.active {
     background: #0b3a6e !important;
     border: 1px solid #e0b336 !important;
 }
-#distance
-{
+#distance {
    color: white !important;
 }
+

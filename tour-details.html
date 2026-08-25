@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+<title>Tour Details - Ilayanila Taxi</title>
+<!-- Fav Icon -->
+<link href="assets/images/logo.png" rel="icon" type="image/x-icon"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet"/>
+<link href="assets/css/flaticon.css" rel="stylesheet"/>
+<link href="assets/css/owl.css" rel="stylesheet"/>
+<link href="assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet"/>
+<link href="assets/css/animate.css" rel="stylesheet"/>
+<link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+<link href="assets/css/color.css" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/responsive.css" rel="stylesheet"/>
+
+<style>
+.tour-detail-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid #eef2f6;
+}
+.tour-detail-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+.tour-detail-content {
+    padding: 25px;
+}
+.tour-detail-content h2 {
+    font-size: 24px;
+    color: #0b3a6e;
+    margin-bottom: 10px;
+}
+.tour-pricing-badge {
+    display: inline-block;
+    background-color: #0b3a6e;
+    color: #e0b336;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.tour-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 20px 0;
+}
+.tour-features-list li {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.tour-features-list li i {
+    color: #25D366;
+}
+.btn-action-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.btn-action-group a {
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-decoration: none;
+}
+.btn-whatsapp {
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border: 1px solid #25D366 !important;
+}
+.btn-whatsapp:hover {
+    background-color: #1eb857 !important;
+    color: #ffffff !important;
+}
+.btn-call {
+    background-color: #0b3a6e !important;
+    color: #ffffff !important;
+    border: 1px solid #0b3a6e !important;
+}
+.btn-call:hover {
+    background-color: #08294f !important;
+    color: #ffffff !important;
+}
+</style>
+
+</head>
+<!-- page wrapper -->
+<body>
+<div class="boxed_wrapper">
+<!-- main header -->
+<header class="main-header style-one">
+<!-- header-lower -->
+<div class="header-lower">
+<div class="auto-container">
+<div class="outer-box">
+<div class="logo-box">
+<figure class="logo"><span>Ilayanila Taxi</span>
+</figure>
+<span class="status-label">
+<!--<h4>24/7</h4>-->
+</span>
+</div>
+<div class="menu-area clearfix">
+<!--Mobile Navigation Toggler-->
+<div class="mobile-nav-toggler">
+<i class="icon-bar"></i>
+<i class="icon-bar"></i>
+<i class="icon-bar"></i>
+</div>
+<nav class="main-menu navbar-expand-md navbar-light">
+<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+<ul class="navigation clearfix">
+<li><a href="index.html">Home</a></li>
+<li><a href="Destination.html">Destination</a></li>
+<li><a href="contact.html">Contact us</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<!--sticky Header-->
+<div class="sticky-header">
+<div class="auto-container">
+<div class="outer-box">
+<div class="logo-box">
+<figure class="logo"><span>Ilayanila Taxi</span>
+</figure>
+</div>
+<div class="menu-area">
+<nav class="main-menu clearfix">
+<!--Keep This Empty / Menu will come through Javascript-->
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- main-header end -->
+
+<!-- Mobile Menu  -->
+<div class="mobile-menu">
+<div class="menu-backdrop"></div>
+<div class="close-btn"><i class="fas fa-times"></i></div>
+<nav class="menu-box">
+<div class="nav-logo"><span>Ilayanila Taxi</span></div>
+<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+<div class="contact-info">
+<h4>Contact Info</h4>
+<ul>
+<li>129/22, Nachimuthu Nagar, Ganapathy, Coimbatore, 641006</li>
+<li><a href="tel:+918754825035">+91 8754825035</a></li>
+<li><a href="mailto:ilayanilataxiindia@gmail.com">ilayanilataxiindia@gmail.com</a></li>
+</ul>
+</div>
+<div class="social-links">
+<ul class="clearfix">
+<li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+<li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+<li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+<li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+<li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+</ul>
+</div>
+</nav>
+</div><!-- End Mobile Menu -->
+
+<!-- Page Title -->
+<section class="page-title centred" style="background-image: url(assets/images/gallery/banner3.jpg);">
+<div class="auto-container">
+<div class="content-box">
+<h1>Popular Tour Packages & Outstation Routes</h1>
+<p>Transparent Pricing, Clean AC Cabs & Experienced Drivers</p>
+</div>
+</div>
+</section>
+<!-- End Page Title -->
+
+<!-- Tour Details Section -->
+<section class="tour-details-section sec-pad">
+<div class="auto-container">
+<div class="row clearfix">
+
+<!-- Tour Item 1 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/gallery/banner3.jpg" alt="Thiruchirapalli to Chennai"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">One Way Drop: Sedan ₹4,880 | SUV ₹4,880</span>
+<h2>Thiruchirapalli to Chennai</h2>
+<p>Travel hassle-free from Trichy to Chennai in our clean, well-maintained cabs. Enjoy a comfortable 330 km journey via NH38 with door-to-door pickup and drop-off.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> Pay only for one-way drop</li>
+<li><i class="fas fa-check-circle"></i> Experienced highway drivers</li>
+<li><i class="fas fa-check-circle"></i> Clean AC Sedan & SUV vehicles</li>
+<li><i class="fas fa-check-circle"></i> 24/7 Instant Booking Support</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tour Item 2 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/gallery/banner5.jpg" alt="Chennai to Bangalore"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">One Way Drop: Sedan ₹5,300 | SUV ₹5,300</span>
+<h2>Chennai to Bangalore</h2>
+<p>Enjoy a smooth inter-state ride from Chennai to Bengaluru across the scenic Bengaluru Highway (NH48). Premium taxis with luggage space and comfortable seating.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> Transparent per-kilometer billing</li>
+<li><i class="fas fa-check-circle"></i> No hidden surge pricing</li>
+<li><i class="fas fa-check-circle"></i> Pickup from any location in Chennai</li>
+<li><i class="fas fa-check-circle"></i> Timely pickup and drop guarantee</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tour Item 3 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/gallery/covai.jpg" alt="Coimbatore to Chennai"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">One Way Drop: Sedan ₹7,540 | SUV ₹7,540</span>
+<h2>Coimbatore to Chennai</h2>
+<p>Connect from Kovai to Chennai with our top-rated outstation taxi service. Perfect for business travelers, families, and long-distance comfort.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> Complete highway ride comfort (~500 km)</li>
+<li><i class="fas fa-check-circle"></i> Driver Allowance included</li>
+<li><i class="fas fa-check-circle"></i> Swift Dzire, Etios, Innova options</li>
+<li><i class="fas fa-check-circle"></i> On-demand refreshment stops</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tour Item 4 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/gallery/tanjore.jpg" alt="Coimbatore to Tanjore"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">One Way Drop: Sedan ₹5,020 | SUV ₹5,020</span>
+<h2>Coimbatore to Tanjore</h2>
+<p>Explore the cultural capital and Brihadeeswarar Temple of Tanjore from Coimbatore. Convenient, reliable drop taxis with friendly driver support.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> Heritage tour & drop options available</li>
+<li><i class="fas fa-check-circle"></i> Fixed low price for one-way journeys</li>
+<li><i class="fas fa-check-circle"></i> Sanitized & air-conditioned cabs</li>
+<li><i class="fas fa-check-circle"></i> Doorstep doorstep pick-and-drop</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tour Item 5 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/banner/pondicherry.jpg" alt="Chennai to Pondicherry"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">One Way Drop: Sedan ₹3,080 | SUV ₹3,080</span>
+<h2>Chennai to Pondicherry</h2>
+<p>Take the picturesque East Coast Road (ECR) drive from Chennai to Puducherry. Scenic ocean views, French quarter drops, and relaxed rides.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> ECR coastal road trip experience</li>
+<li><i class="fas fa-check-circle"></i> Affordable Sedan rates starting at ₹14/km</li>
+<li><i class="fas fa-check-circle"></i> Round trip or one way flexibility</li>
+<li><i class="fas fa-check-circle"></i> Instant confirmation via WhatsApp</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tour Item 6 -->
+<div class="col-lg-6 col-md-12 col-sm-12">
+<div class="tour-detail-card">
+<img src="assets/images/gallery/banner1.jpg" alt="Madurai & Temple Pilgrimages"/>
+<div class="tour-detail-content">
+<span class="tour-pricing-badge">Custom Temple Packages Available</span>
+<h2>Madurai & South Tamil Nadu Pilgrimages</h2>
+<p>Visit Meenakshi Amman Temple, Rameswaram, Kanyakumari, and Tiruchendur with Ilayanila Taxi's custom temple tour packages and outstation cabs.</p>
+<ul class="tour-features-list">
+<li><i class="fas fa-check-circle"></i> Pilgrimage multi-city tour packages</li>
+<li><i class="fas fa-check-circle"></i> Experienced drivers familiar with temple routes</li>
+<li><i class="fas fa-check-circle"></i> SUV 6+1 and 7+1 seating for large families</li>
+<li><i class="fas fa-check-circle"></i> 24/7 dedicated customer service</li>
+</ul>
+<div class="btn-action-group">
+<a class="btn-whatsapp" href="https://wa.me/918754825035" target="_blank"><i class="fab fa-whatsapp"></i> Book through WhatsApp</a>
+<a class="btn-call" href="tel:+918754825035"><i class="fas fa-phone"></i> Call to Book</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+<span>Ilayanila Taxi</span>
+<div class="footer-center">
+<button class="collapsible" type="button">Tamil Nadu Districts</button>
+<div class="content">
+<ul class="district-list">
+<li>Ariyalur</li>
+<li>Chengalpattu</li>
+<li>Chennai</li>
+<li>Coimbatore</li>
+<li>Cuddalore</li>
+<li>Dharmapuri</li>
+<li>Dindigul</li>
+<li>Erode</li>
+<li>Kallakurichi</li>
+<li>Kanchipuram</li>
+<li>Kanyakumari</li>
+<li>Karur</li>
+<li>Krishnagiri</li>
+<li>Madurai</li>
+<li>Mayiladuthurai</li>
+<li>Nagapattinam</li>
+<li>Namakkal</li>
+<li>Nilgiris</li>
+<li>Perambalur</li>
+<li>Pudukkottai</li>
+<li>Ramanathapuram</li>
+<li>Ranipet</li>
+<li>Salem</li>
+<li>Sivagangai</li>
+<li>Tenkasi</li>
+<li>Coimbatore, 641006</li>
+<li>Theni</li>
+<li>Thoothukudi</li>
+<li>Tiruchirappalli</li>
+<li>Tirunelveli</li>
+<li>Tirupathur</li>
+<li>Tiruppur</li>
+<li>Tiruvallur</li>
+<li>Tiruvannamalai</li>
+<li>Tiruvarur</li>
+<li>Vellore</li>
+<li>Viluppuram</li>
+<li>Virudhunagar</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+<div class="footer-widget contact-widget">
+<div class="widget-title">
+<strong> <h3 style="color:orange">Outstation Taxi Services</h3></strong>
+</div>
+<div class="widget-content">
+<ul class="info-list clearfix">
+<li>drop taxi</li>
+<li>one way drop taxi</li>
+<li>Outstation Cabs</li>
+<li>One Way Cabs</li>
+<li>one way taxi</li>
+<li>outstation car rental</li>
+<li>car rental</li>
+<li>call taxi</li>
+<li>Airport taxi service</li>
+<li>Hire taxi</li>
+<li>Outstation taxi</li>
+<li>Tamilnadu call taxi</li>
+<li>Drop taxi coimbatore</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom">
+<div class="auto-container">
+<div class="bottom-inner clearfix">
+<div class="copyright pull-left">
+<p><a href="index.html"> Ilayanila Taxi</a> © 2021 All Right Reserved Designed by<a href="https://brandads.in/">BrandAds</a></p>
+</div>
+<ul class="footer-nav pull-right">
+<li><a href="termsandcondition.html">Terms of Service</a></li>
+<li><a href="privacypolicy.html">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!--Scroll to top-->
+<button class="scroll-top scroll-to-target" data-target="html">
+<span class="fal fa-angle-up"></span>
+</button>
+
+<!-- jequery plugins -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/product-filter.js"></script>
+<!-- main-js -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>

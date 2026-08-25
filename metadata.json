@@ -1,0 +1,6 @@
+{
+  "name": "Website Editor Assistant",
+  "description": "Assistant for managing and updating static HTML, CSS, and JS website files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
